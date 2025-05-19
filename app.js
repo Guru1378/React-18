@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class User extends React.Component{
 
       constructor(props){
@@ -24,3 +25,14 @@ class User extends React.Component{
 
 }
 export default User
+=======
+import React from "react";
+import ReactDOM from "react-dom/client";  // Correct import for React 18+
+import Derived_data from "./DerivedState";
+/*const header = (
+    <h1>Hello Guru</h1>
+);*/
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<Derived_data/>);
+>>>>>>> ca32a7107dcc9c231681f0093d60ca9b8628ae21
